@@ -1,5 +1,7 @@
 {
   "name": "CDC_Africa",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
