@@ -3,18 +3,11 @@ import { Routes, RouterModule } from '@angular/router';
 
 import { WelcomePage } from './welcome.page';
 
-
 const routes: Routes = [
   {
     path: '',
-    component: WelcomePage,
-    children: [
-      {
-        path: 'Register',
-        redirectTo: './register/register.module#PageModule'
-      },
-    ]
-  },
+    component: WelcomePage
+  }
 ];
 
 @NgModule({

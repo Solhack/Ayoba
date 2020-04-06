@@ -10,6 +10,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { WelcomePage } from './welcome/welcome.page';
 
+
 @NgModule({
   declarations: [AppComponent,
   WelcomePage ],
